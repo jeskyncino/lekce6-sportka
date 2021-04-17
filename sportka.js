@@ -51,7 +51,7 @@ function losuj() {
 
     for (let i = 0; i < tazenaCisla.length; i++) {
 
-       setTimeout(function(){vyherniCisla.innerHTML += '<span class="cislo">' + tazenaCisla[i] + '</span>';}, i * 3000)
+       setTimeout(function(){vyherniCisla.innerHTML += '<span class="cislo">' + tazenaCisla[i] + '</span>';}, i * 2000)
 
     }
 
