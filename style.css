@@ -9,6 +9,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	background-image: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
@@ -16,6 +17,9 @@ body {
 
 h1, h2, h3 {
 	font-weight: normal;
+}
+.obsah {
+	display: none;
 }
 
 h1 {
@@ -66,4 +70,48 @@ h1 {
 	filter: blur(35px);
 	transform: scale(0.8, 0.25);
 	opacity: 0.4;
+}
+
+#losuj {
+	margin: 50px 0 100px 0;
+	padding: 20px;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 16px;
+	color: white;
+	border: 0;
+	border-radius: 20px;
+	background: #ff0844 linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	outline: 0;
+
+}
+
+.historie {
+	display: none;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 16px;
+	color: white;
+	outline: 0;
+	text-align: center;
+
+}
+
+
+#historie__nadpis {
+	margin-bottom: 20px;
+
+}
+
+#vymazHistorii {
+	display: none;
+	margin-left: 50px;
+	padding: 20px;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 16px;
+	color: white;
+	border: 0;
+	border-radius: 20px;
+	background: #263b52 linear-gradient(to top, #263b52 0%, #B6CEE8 100%);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	outline: 0;
 }

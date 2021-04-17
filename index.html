@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,22 @@
 	<title>Sportka</title>
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 	<div class="obsah">
 		<h1>Výherní čísla</h1>
-		<div id="vyherni-cisla"></div> <br>
-		<button onclick="losuj()">Losuj!</button>
+		<div id="vyherni-cisla"></div>
 	</div>
-
+	<div class="tlacitka">
+		<button id="losuj" onclick="losuj()">Losovat</button>
+		<button id="vymazHistorii" onclick="obnov()">Vymaž historii</button>
+	</div>
+	<div class="historie">
+		<span id="historie__nadpis">HISTORIE LOSOVÁNÍ</span>
+		<hr>
+		<div id="historie__text"></div>
+	</div>
 	<script src="sportka.js"></script>
 </body>
+
 </html>
